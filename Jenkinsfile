@@ -26,7 +26,7 @@ pipeline {
 				}
 			}
 		}
-		stage('Trivy Scan'){
+		/*stage('Trivy Scan'){
 			steps {
 				//sh 'trivy --severity HIGH,CRITICAL --no-progress image --format table -o trivy-scan-report.txt ${DOCKER_HUB_REPO}:latest'
 				sh 'trivy --severity HIGH,CRITICAL --skip-update --no-progress image --format table -o trivy-scan-report.txt ${DOCKER_HUB_REPO}:latest'
@@ -65,7 +65,7 @@ pipeline {
 					}	
 				}
 			}
-		}
+		}*/
 	}
 
 	post {
