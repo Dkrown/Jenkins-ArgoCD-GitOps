@@ -66,7 +66,6 @@ pipeline {
 				}
 			}
 	}
-
 	post {
 		success {
 			echo 'Build & Deploy completed succesfully!'
