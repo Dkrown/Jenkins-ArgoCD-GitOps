@@ -1,0 +1,8 @@
+# These files and directories to be ignore, that is, not appear in git push
+# Files
+/contributing.md
+/logs.txt
+/git-FGToken
+
+# Directories
+node_modules/
